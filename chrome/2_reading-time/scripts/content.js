@@ -9,7 +9,7 @@ if(article){
     const readingTime = Math.round(wordCount / 200);
     const badge = document.createElement("p");
     badge.classList.add("color-secondary-text", "type--caption");
-    badge.textContent = `⏱️ ${readingTime} min read`
+    badge.textContent = `⏱ ${readingTime} min read 🙂`
 
     const heading = article.querySelector("h1");
     const date = article.querySelector("time")?.parentNode;
