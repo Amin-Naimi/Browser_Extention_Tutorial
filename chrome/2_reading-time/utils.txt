@@ -1,0 +1,5 @@
+manifest.json: 
+
+    It must be located at the root of the project.
+    The only required keys are "manifest_version", "name", and "version".
+    It supports comments (//) during development, but these must be removed before uploading your code to the Chrome Web Store.
