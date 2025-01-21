@@ -1,0 +1,15 @@
+*******************************************************************************************************************
+ACTION API:
+
+    The Action API controls the extension action (toolbar icon). When the user clicks on the extension action, 
+    it will either run some code or open a popup, like in this case. Start by declaring the popup in the manifest.json
+************************************************************************************************************************
+TAB API:
+
+    The Tabs API allows an extension to create, query, modify, and rearrange tabs in the browser.
+************************************************************************************************************************
+TabGroups API:
+
+    The TabGroups API allows the extension to name the group and choose a background color. 
+    Add the "tabGroups" permission to the manifest by adding the highlighted code:
+************************************************************************************************************************
